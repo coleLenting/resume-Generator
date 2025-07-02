@@ -16,7 +16,7 @@ interface SkillsFormProps {
 }
 
 export const SkillsForm: React.FC<SkillsFormProps> = ({ data, onUpdate }) => {
-  const [newSkill, setNewSkill] = useState({
+  const [newSkill, setNewSkill] = React.useState({
     technical: '',
     soft: '',
     languages: '',
